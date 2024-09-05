@@ -1,6 +1,6 @@
 {
   "name": "chapmobilefileopener",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "chapmobile file opener",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "Chapmobilefileopener.podspec"
   ],
-  "author": "cat",
-  "license": "cat1234",
+  "author": "White Tiger",
+  "license": "bleached stripes",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/groe3433/chapmobile-file-opener.git"
+    "url": "https://github.com/groe3433/chapmobilefileopener.git"
   },
   "bugs": {
-    "url": "https://github.com/groe3433/chapmobile-file-opener/issues"
+    "url": "https://github.com/groe3433/chapmobilefileopener/issues"
   },
   "keywords": [
     "capacitor",
@@ -44,24 +44,24 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^5.5.1",
-    "@capacitor/cli": "^5.5.1",
-    "@capacitor/core": "^5.5.1",
-    "@capacitor/docgen": "^0.2.1",
-    "@capacitor/ios": "^5.5.1",
-    "@ionic/eslint-config": "^0.2.1",
-    "@ionic/prettier-config": "^1.0.1",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/docgen": "^0.2.2",
+    "@capacitor/ios": "^6.1.2",
+    "@ionic/eslint-config": "^0.4.0",
+    "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^1.1.2",
-    "eslint": "^7.11.0",
-    "prettier": "~2.3.0",
-    "prettier-plugin-java": "~1.0.2",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.32.0",
-    "swiftlint": "^1.0.1",
-    "typescript": "~4.1.5"
+    "eslint": "^9.9.1",
+    "prettier": "~3.3.3",
+    "prettier-plugin-java": "~2.6.4",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.21.2",
+    "swiftlint": "^1.0.2",
+    "typescript": "~5.5.4"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.5.1"
+    "@capacitor/core": "^6.1.2"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
@@ -75,8 +75,6 @@
     "android": {
       "src": "android"
     }
-  },
-  "dependencies": {
-    "chapmobilefileopener": "^0.0.2"
   }
 }
+

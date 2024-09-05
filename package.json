@@ -18,7 +18,7 @@
   "license": "bleached stripes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/groe3433/chapmobilefileopener.git"
+    "url": "git+https://github.com/groe3433/chapmobilefileopener.git"
   },
   "bugs": {
     "url": "https://github.com/groe3433/chapmobilefileopener/issues"
